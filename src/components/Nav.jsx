@@ -24,7 +24,7 @@ const Nav = () => {
               <div className="logo-icon">
                 <img src={'/icon.png'} alt="" />
               </div>
-              세부밤문화
+              세부클럽
             </NavLink></div>
           <div className='btn' onClick={() => setIsMenuOpen(true)}>메뉴</div>
         </div>
