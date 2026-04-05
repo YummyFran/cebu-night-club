@@ -13,16 +13,12 @@ const ContextSection = ({ context = '', image = {} }) => {
                 path.endsWith(`/${image.src}`)
             )
 
-            console.log(Object.entries(images))
-
             if (!match) {
                 setImgSrc('')
                 return
             }
 
             const mod = await match[1]()
-
-            console.log(mod)
 
             setImgSrc(mod.default)
         }
