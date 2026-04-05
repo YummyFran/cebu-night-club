@@ -17,9 +17,9 @@ function App() {
       <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path='/philippine-nightlife' element={<Page1 />}/>
-        <Route path='/filipino-personality' element={<Page2 />}/>
-        <Route path='/philippine-hangul' element={<Page3 />}/>
+        <Route path='/cebu-club' element={<Page1 />}/>
+        <Route path='/tip-culture' element={<Page2 />}/>
+        <Route path='/philippine-local-food' element={<Page3 />}/>
         <Route path='/inquiry' element={<Page4 />}/>
       </Routes>
     </BrowserRouter>
