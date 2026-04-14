@@ -40,7 +40,7 @@ const Nav = () => {
           <li><NavLink to={'/philippine-local-food'} className={({ isActive }) => isActive ? 'active' : ''}>필리핀 현지 대표 음식</NavLink></li>
           <li><NavLink to={'/inquiry'} className={({ isActive }) => isActive ? 'active' : ''}>1:1문의</NavLink></li>
         </ul>
-        <h2 className='logo'>세부클럽 • 세부KTV • 세부JTV</h2>
+        <p className='logo'>세부클럽 • 세부KTV • 세부JTV</p>
       </div>
     </nav>
   )
