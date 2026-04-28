@@ -3,7 +3,7 @@ import { NavLink, useLocation } from 'react-router'
 
 const breakpoint = 768
 
-const Nav = () => {
+const Nav = ({ title = "세부클럽 • 세부KTV • 세부JTV • 아이콘클럽" }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   const route = useLocation()
     const [isMobile, setIsMobile] = useState(false)
@@ -40,7 +40,7 @@ const Nav = () => {
           <li><NavLink to={'/philippine-local-food'} className={({ isActive }) => isActive ? 'active' : ''}>필리핀 현지 대표 음식</NavLink></li>
           <li><NavLink to={'/inquiry'} className={({ isActive }) => isActive ? 'active' : ''}>1:1문의</NavLink></li>
         </ul>
-        <p className='logo'>세부클럽 • 세부KTV • 세부JTV</p>
+        <h1 className='logo'>{title}</h1>
       </div>
     </nav>
   )

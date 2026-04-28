@@ -5,11 +5,10 @@ import ContextSection from '../components/ContextSection'
 const Page1 = () => {
     return (
         <main className="blog main">
-            <Nav />
+            <Nav title='세부클럽,세부KTV,세부JTV'/>
 
             <div className="container">
                 <div className='wrapper'>
-                    <h1 className='opacity-0'>세부클럽,세부KTV,세부JTV</h1>
                     <ContextSection
                         context={`
                             세부밤문화(장단점분석,클럽,KTV,JTV)

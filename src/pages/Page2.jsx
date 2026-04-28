@@ -5,11 +5,10 @@ import ContextSection from '../components/ContextSection'
 const Page2 = () => {
   return (
     <main className='main blog'>
-      <Nav />
+      <Nav title='필리핀 팁문화'/>
 
       <div className="container">
         <div className="wrapper">
-          <h1 className='opacity-0'>필리핀 팁문화</h1>
 
           <ContextSection 
             context={`
