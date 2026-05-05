@@ -21,7 +21,7 @@ const Home = () => {
       <div className={`${route.pathname === "/" ? "homepage" :""} container`}>
         <div className='homepage'>
           <div className='wrapper'>
-            <h1 className='opacity-0'>세부클럽 • 세부KTV • 세부JTV</h1>
+            {/* <h1 className='opacity-0'>세부클럽 • 세부KTV • 세부JTV</h1> */}
             <h2 className='text-white'>세부에코걸 정보를 찾는 중이신가요?</h2>
             
             <div className='hero'>
