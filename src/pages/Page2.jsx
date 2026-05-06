@@ -5,12 +5,19 @@ import ContextSection from '../components/ContextSection'
 const Page2 = () => {
   return (
     <main className='main blog'>
-      <Nav title='필리핀 팁문화'/>
+      <title>필리핀 팁문화 | 세부클럽</title>
+      <meta name="description" content="세부밤문화 & 세부에코걸 & 최신 황제투어에 대한 총 정리 & 필리핀 팁문화" />
+      <meta property="og:title" content="필리핀 팁문화 | 세부클럽" />
+      <meta property="og:description" content="세부밤문화 & 세부에코걸 & 최신 황제투어에 대한 총 정리 & 필리핀 팁문화" />
+      <meta property="og:image" content="https://www.cebunightclub.com/banner.png" />
+      <link rel="canonical" href="https://www.cebunightclub.com/tip-culture" />
+
+      <Nav title='필리핀 팁문화' />
 
       <div className="container">
         <div className="wrapper">
 
-          <ContextSection 
+          <ContextSection
             context={`
               오늘은 많은 분들이 세부여행 오실때 
               궁금해하시는 필리핀 팁문화를 상황별로 팁 주는 
@@ -28,7 +35,7 @@ const Page2 = () => {
             }}
           />
 
-          <ContextSection 
+          <ContextSection
             context={`
               간혹 "팁을 꼭 줘야 하나?"라는 생각까지 갖고 
               계신 분들이 있을 텐데요..
@@ -44,7 +51,7 @@ const Page2 = () => {
             }}
           />
 
-          <ContextSection 
+          <ContextSection
             context={`
               영수증을 보시면 서비스 차지가 
               붙은 곳도 붙지 은 곳도 있어요!
@@ -61,7 +68,7 @@ const Page2 = () => {
             }}
           />
 
-          <ContextSection 
+          <ContextSection
             context={`
               마사지
 
@@ -87,7 +94,7 @@ const Page2 = () => {
             }}
           />
 
-          <ContextSection 
+          <ContextSection
             context={`
               풀빌라
 

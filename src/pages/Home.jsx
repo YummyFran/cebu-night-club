@@ -17,16 +17,23 @@ const Home = () => {
 
   return (
     <div className='main'>
+      <title>세부클럽 • 세부KTV • 세부JTV • 아이콘클럽</title>
+      <meta name="description" content="세부밤문화 & 세부에코걸 & 최신 황제투어에 대한 총 정리" />
+      <meta property="og:title" content="세부클럽 • 세부KTV • 세부JTV • 아이콘클럽" />
+      <meta property="og:description" content="세부밤문화 & 세부에코걸 & 최신 황제투어에 대한 총 정리" />
+      <meta property="og:image" content="https://www.cebunightclub.com/banner.png" />
+      <link rel="canonical" href="https://www.cebunightclub.com/" />
+
       <Nav />
-      <div className={`${route.pathname === "/" ? "homepage" :""} container`}>
+      <div className={`${route.pathname === "/" ? "homepage" : ""} container`}>
         <div className='homepage'>
           <div className='wrapper'>
             {/* <h1 className='opacity-0'>세부클럽 • 세부KTV • 세부JTV</h1> */}
             <h2 className='text-white'>세부에코걸 정보를 찾는 중이신가요?</h2>
-            
+
             <div className='hero'>
               <a href="https://www.cebunightguide.com" target='_blank' style={{ textDecoration: "none", color: isMobile ? "white" : 'white' }}>
-                <p className='subtitle' style={{ lineHeight: '2', paddingTop: '0.5rem'}}>아래 메인홈페이지 링크(사진)클릭하시고 <br /> 더 많은 세부밤문화 정보 얻어가세요</p>
+                <p className='subtitle' style={{ lineHeight: '2', paddingTop: '0.5rem' }}>아래 메인홈페이지 링크(사진)클릭하시고 <br /> 더 많은 세부밤문화 정보 얻어가세요</p>
               </a>
               <a href="https://www.cebunightguide.com" target='_blank' className='leader'>
                 <img src={`${isMobile ? '/banner1.0.jpg' : '/banner1.0.jpg'}`} alt="banner" className={`banner clickable ${isMobile ? "mobile" : ""}`} />

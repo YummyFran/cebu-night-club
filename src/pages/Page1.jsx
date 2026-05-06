@@ -5,7 +5,14 @@ import ContextSection from '../components/ContextSection'
 const Page1 = () => {
     return (
         <main className="blog main">
-            <Nav title='세부클럽,세부KTV,세부JTV'/>
+            <title>세부클럽 - 세부KTV - 세부JTV | 세부클럽</title>
+            <meta name="description" content="세부밤문화 & 세부에코걸 & 최신 황제투어에 대한 총 정리" />
+            <meta property="og:title" content="세부클럽 - 세부KTV - 세부JTV | 세부클럽" />
+            <meta property="og:description" content="세부밤문화 & 세부에코걸 & 최신 황제투어에 대한 총 정리" />
+            <meta property="og:image" content="https://www.cebunightclub.com/banner.png" />
+            <link rel="canonical" href="https://www.cebunightclub.com/cebu-club" />
+
+            <Nav title='세부클럽 - 세부KTV - 세부JTV' />
 
             <div className="container">
                 <div className='wrapper'>
@@ -24,7 +31,7 @@ const Page1 = () => {
                         }}
                     />
 
-                    
+
 
                     <ContextSection
                         context={`
@@ -45,7 +52,7 @@ const Page1 = () => {
                         }}
                     />
 
-                    
+
 
                     <ContextSection
                         context={`
@@ -68,7 +75,7 @@ const Page1 = () => {
                         }}
                     />
 
-                    
+
 
                     <ContextSection
                         context={`
@@ -94,9 +101,9 @@ const Page1 = () => {
                         }}
                     />
 
-                    
 
-                     <ContextSection
+
+                    <ContextSection
                         context={`
                             JTV (일본식 가라오케)는 한국의 룸살롱과
                             유사한 형태로, 주로 일본인을 대상으로 하는
@@ -149,7 +156,7 @@ const Page1 = () => {
                         `}
                     />
 
-                    
+
                 </div>
             </div>
         </main>

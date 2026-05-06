@@ -5,7 +5,14 @@ import CTAButtons from '../components/CTAButtons'
 const Page4 = () => {
     return (
         <div className='main'>
-            <Nav title='1:1문의'/>
+            <title>1:1문의 | 세부클럽</title>
+            <meta name="description" content="세부밤문화 & 세부에코걸 & 최신 황제투어에 대한 총 정리" />
+            <meta property="og:title" content="1:1문의 | 세부클럽" />
+            <meta property="og:description" content="세부밤문화 & 세부에코걸 & 최신 황제투어에 대한 총 정리" />
+            <meta property="og:image" content="https://www.cebunightclub.com/banner.png" />
+            <link rel="canonical" href="https://www.cebunightclub.com/tip-culture/inquiry" />
+
+            <Nav title='1:1문의' />
 
             <div className="container">
                 <div className="wrapper">
@@ -26,7 +33,7 @@ const Page4 = () => {
 
                     <p className='line'>더 자세한 문의와 비용등 궁금하신거 있으시면</p>
 
-                    <p className='line' style={{ marginBottom: '5rem'}}>아래 카카오톡 & 텔레그램으로 문의주세요^^</p>
+                    <p className='line' style={{ marginBottom: '5rem' }}>아래 카카오톡 & 텔레그램으로 문의주세요^^</p>
 
                     <CTAButtons />
                 </div>

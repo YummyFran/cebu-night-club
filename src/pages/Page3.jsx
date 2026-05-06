@@ -5,6 +5,13 @@ import ContextSection from '../components/ContextSection'
 const Page3 = () => {
   return (
     <main className='blog main'>
+      <title>필리핀 현지 대표 음식들과 특징 | 세부클럽</title>
+      <meta name="description" content="세부밤문화 & 세부에코걸 & 최신 황제투어에 대한 총 정리" />
+      <meta property="og:title" content="필리핀 현지 대표 음식들과 특징 | 세부클럽" />
+      <meta property="og:description" content="세부밤문화 & 세부에코걸 & 최신 황제투어에 대한 총 정리" />
+      <meta property="og:image" content="https://www.cebunightclub.com/banner.png" />
+      <link rel="canonical" href="https://www.cebunightclub.com/tip-culture/philippine-local-food" />
+
       <Nav title='필리핀 현지 대표 음식들과 특징'/>
 
       <div className="container">
